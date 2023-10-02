@@ -8,16 +8,25 @@
  h1, h2, h3, h4, h5, h6{
     font-family: "Press Start 2P";
     font-size: 40pt;
+    text-shadow: #000 1px 0 10px;
  }
 
  header{
     text-align: center;
  }
 
- #hero, footer {
+ #hero {
     font-family: "Press Start 2p";
     background-color: #0da84d;
     text-align: center;
+    margin-right: 400px;
+    margin-left: 400px;
+ }
+
+ #hero div{
+   font-size: 2rem;
+   text-shadow: #000 1px 0 10px;
+
  }
 
  #hero img{
@@ -27,5 +36,19 @@
  #bio {
     font-family: "Pixelify Sans";
     text-align: center;
+    background-color: #ff6b61;
+    border: 10px solid #A8271E;
+    padding: 10px;
+    margin-right: 400px;
+    margin-left: 400px;
+ }
+
+ footer {
+    font-family: "Press Start 2p";
+    background-color: #0da84d;
+    text-align: center;
+    padding: 20px;
+    text-shadow: #000 1px 0 10px;
+
  }
 
