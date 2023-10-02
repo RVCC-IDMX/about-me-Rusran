@@ -1,0 +1,31 @@
+ body{
+    font-family: Roboto ;
+    background-color: #45F58D;
+    color: #a8271f
+
+ }
+
+ h1, h2, h3, h4, h5, h6{
+    font-family: "Press Start 2P";
+    font-size: 40pt;
+ }
+
+ header{
+    text-align: center;
+ }
+
+ #hero, footer {
+    font-family: "Press Start 2p";
+    background-color: #0da84d;
+    text-align: center;
+ }
+
+ #hero img{
+    width:300px;
+ }
+
+ #bio {
+    font-family: "Pixelify Sans";
+    text-align: center;
+ }
+
