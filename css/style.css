@@ -9,7 +9,7 @@
 
  h1, h2, h3, h4, h5, h6{
     font-family: "Press Start 2P";
-    font-size: 40pt;
+    font-size: 30pt;
     text-shadow: #fff 1px 0 10px;
     text-align: center;
  }
@@ -18,7 +18,9 @@
     text-align: center;
  }
 
- #hero {
+ /*Hero section*/
+
+  #hero {
     font-family: "Press Start 2p";
     background: linear-gradient(to bottom,#45F58D,#0da84d);
     border-width: 10px ;
@@ -39,6 +41,8 @@
     width:300px;
  }
 
+/*Bio Section*/
+
  #bio {
     font-family: "Pixelify Sans";
     text-align: center;
@@ -52,20 +56,39 @@
     margin-left: 10%;
  }
 
- footer {
-    font-family: "Press Start 2p";
-    background-color: #0da84d;
-    text-align: center;
-    padding: 10px;
-    text-shadow: #000 1px 0 10px;
-    box-shadow: #000 1px 0 20px;
-    margin-top: 20px;
- }
+/* Hobbies Section */
 
  #hobbies ul li{
    font-family: "Pixelify Sans";
    margin-left: 600px;
    text-shadow: #fff 1px 0 10px;
-
  }
+
+ /* Gallery */
+ 
+#gallery{
+   border: 7px ridge #A8271E;
+}
+
+#gallery img{
+   max-width: 100%;
+}
+
+#gallery figure{
+   text-align: center;
+   font-family: "Pixelify Sans";
+   font-size: 20px;
+   text-shadow: #0da84d 1px 0 20px;
+}
+
+
+ footer {
+   font-family: "Press Start 2p";
+   background-color: #0da84d;
+   text-align: center;
+   padding: 10px;
+   text-shadow: #000 1px 0 10px;
+   box-shadow: #000 1px 0 20px;
+   margin-top: 20px;
+}
 
