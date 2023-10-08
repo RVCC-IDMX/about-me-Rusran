@@ -81,8 +81,54 @@
    text-shadow: #0da84d 1px 0 20px;
 }
 
+#gallery hr{
+   display: block;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
+   margin-left: auto;
+   margin-right: auto;
+   border-style: inset;
+   border-width: 4px;
+   border-color: #A8271E;
+}
 
- footer {
+
+/*Litarature*/
+
+#lit{
+   border: 7px groove #A8271E;
+   margin-top: 10px;
+   font-family: "Pixelify Sans";
+   font-size: 20px;
+}
+
+#lit div{
+   margin:0 auto;
+   max-width: 40rem;
+   padding: 2rem;
+}
+
+#lit div p:nth-child(-n+1):first-letter{
+   color: #0da84d;
+   clear: both;
+   float: left;
+   padding: 10px;
+   font-size: 3rem;
+   border: 5px groove #A8271E ;
+   margin-right: 5px;
+   background-color: #ff6b61;
+   box-shadow: inset 5px 5px rgba(0,0,0,0.5) ;
+   text-shadow: #000 1px 2px;
+   line-height: .65;
+}
+
+#lit div p{
+   text-shadow: #000 1px 1px; 
+   background-color: rgba(255,255,255,0.4);
+   background: blend mode 10px; ;
+}
+
+footer {
    font-family: "Press Start 2p";
    background-color: #0da84d;
    text-align: center;
