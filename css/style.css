@@ -10,7 +10,8 @@
  h1, h2, h3, h4, h5, h6{
     font-family: "Press Start 2P";
     font-size: 40pt;
-    text-shadow: #000 1px 0 10px;
+    text-shadow: #fff 1px 0 10px;
+    text-align: center;
  }
 
  header{
@@ -30,7 +31,7 @@
 
  #hero div{
    font-size: 2rem;
-   text-shadow: #000 1px 0 10px;
+   text-shadow: #fff 1px 0 10px;
 
  }
 
@@ -42,7 +43,7 @@
     font-family: "Pixelify Sans";
     text-align: center;
     background: linear-gradient(to left,#A8271E,#ff6b61);
-    text-shadow: #000 1px 0 10px;
+    text-shadow: #fff 1px 0 20px;
     border-width: 10px ;
     border-style: solid;
     border-image: linear-gradient(to left, #ff6b61,#A8271E) 1;
@@ -59,6 +60,12 @@
     text-shadow: #000 1px 0 10px;
     box-shadow: #000 1px 0 20px;
     margin-top: 20px;
+ }
+
+ #hobbies ul li{
+   font-family: "Pixelify Sans";
+   margin-left: 600px;
+   text-shadow: #fff 1px 0 10px;
 
  }
 
