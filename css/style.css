@@ -7,11 +7,15 @@
 
  }
 
+
+
  h1, h2, h3, h4, h5, h6{
     font-family: "Press Start 2P";
     font-size: 30pt;
     text-shadow: #fff 1px 0 10px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
 
  header{
@@ -29,6 +33,9 @@
     text-align: center;
     margin-right: 20%;
     margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
 
  #hero div{
@@ -60,9 +67,19 @@
 
  #hobbies ul li{
    font-family: "Pixelify Sans";
-   margin-left: 600px;
    text-shadow: #fff 1px 0 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-left: 0px;
+   padding-right: 0px;
+   font-size: 2rem;
+   padding-right: 100px;
  }
+
+#hobbies h1{
+   margin: 1em;
+}
 
  /* Gallery */
  
@@ -79,6 +96,7 @@
    font-family: "Pixelify Sans";
    font-size: 20px;
    text-shadow: #0da84d 1px 0 20px;
+   font-size: 2rem;
 }
 
 #gallery hr{
@@ -92,6 +110,14 @@
    border-color: #A8271E;
 }
 
+#gallery h2{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-left: 20%;
+   margin-right: 20%;
+}
+
 
 /*Litarature*/
 
@@ -100,6 +126,15 @@
    margin-top: 10px;
    font-family: "Pixelify Sans";
    font-size: 20px;
+}
+
+#lit h2{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-left: 20%;
+   padding-right: 20%;
 }
 
 #lit div{
@@ -138,3 +173,20 @@ footer {
    margin-top: 20px;
 }
 
+
+
+@media screen and (min-width: 60em){
+   figure{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+   }
+
+   figcaption{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 200%;
+      margin-left: 1rem;
+   }
+
+}
