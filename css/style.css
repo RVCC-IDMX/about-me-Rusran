@@ -1,9 +1,15 @@
  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-family: Roboto ;
-    background: linear-gradient(#45F58D,#0da84d) ;
     background-repeat: no-repeat;
+    background-image: url("../img/paper.jpg");
     background-attachment: fixed;
-    color: #a8271f
+    color: #a8271f;
+    outline: 7px solid#000;
+    overflow-x: hidden;
 
  }
 
@@ -25,18 +31,26 @@
  /*Hero section*/
 
   #hero {
-    font-family: "Press Start 2p";
-    background: linear-gradient(to bottom,#45F58D,#0da84d);
-    border-width: 10px ;
-    border-style: solid;
-    border-image: linear-gradient(to bottom, #0da84d,#45F58D) 1;
-    text-align: center;
-    margin-right: 20%;
-    margin-left: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   align-items: center;
+   justify-content: center;
+   font-family: "Press Start 2p";
+   background: linear-gradient(to left,#A8271E,#ff6b61);
+   border-width: 10px ;
+   border-style: solid;
+   border-image: linear-gradient(to left, #ff6b61,#A8271E) 1;
+   text-align: center;
+   margin-bottom: 5%;
+   margin-left: 33%;
+   max-width: 500px;
  }
+#herobox{
+   display: flex;
+   display: grid;
+   place-items: center;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
 
  #hero div{
    font-size: 2rem;
@@ -45,7 +59,9 @@
  }
 
  #hero img{
-    width:100%;
+   display: flex;
+   justify-content: center;
+   width:100%;
  }
 
 /*Bio Section*/
@@ -160,7 +176,28 @@
 #lit div p{
    text-shadow: #000 1px 1px; 
    background-color: rgba(255,255,255,0.4);
-   background: blend mode 10px; ;
+   background: blend mode 10px; 
+}
+
+/*VIDEO*/
+#Video h1{
+   text-wrap: wrap;
+}
+#Video div{
+   position: relative;
+   padding-bottom: 42.18%;
+   padding-top: 25px;
+   height: 0px;
+}
+
+#Video div iframe{
+   position: absolute;
+   left: 13%;
+   right: 0px;
+   bottom: 0px;
+   top: 0px;
+   height: 75%;
+   width: 75%; 
 }
 
 footer {
