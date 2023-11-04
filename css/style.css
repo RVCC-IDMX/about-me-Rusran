@@ -204,7 +204,52 @@
 
 #formElements{
    display: grid;
+   row-gap: 10px;
 }
+
+#contact{
+   padding: 15px;
+   max-width: 600px;
+   margin: 2rem auto;
+   font-family: "Press Start 2p";
+}
+
+fieldset {
+   border: 2px solid #ff6b61;
+}
+
+#contact input, #contact textarea, #contact select, #contact button{
+   font-size: 1rem;
+}
+
+legend{
+   background-color: #A8271E;
+   padding: .5em;
+   color: #ff6b61;
+   font-size: 1.2em;
+}
+
+label{
+   color: #ff6b61;
+}
+
+#contact ul{
+   list-style: none;
+   padding: 0px;
+}
+#contact li{
+   margin: 1rem;
+}
+
+#contact button{
+   background-color: #0da84d;
+   color: #fff;
+   max-width: 60px;
+   width: 50%;
+   justify-self: center;
+}
+
+
 
 
 footer {
