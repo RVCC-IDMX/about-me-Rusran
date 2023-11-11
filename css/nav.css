@@ -91,12 +91,10 @@ main{
     outline: none;
 }
 
-
-
 /* 
 media query for non-mobile nav bar
 min-width set to width of nav elements 
-such that no text wraps 
+such that no text wrap 
 */
 
 @media screen and (min-width: 60rem) {
