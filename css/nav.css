@@ -27,7 +27,7 @@ main{
     background: linear-gradient(to left,#A8271E,#ff6b61);
     border-width: 10px ;
     border-style: solid;
-    text-shadow: #000 0px 0px 5px;
+    text-shadow: #333 0px 0px 5px;
     border-image: linear-gradient(to left, #ff6b61,#A8271E) 1;
     color: whitesmoke;
     display: flex;
