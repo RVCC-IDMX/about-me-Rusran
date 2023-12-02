@@ -6,14 +6,16 @@ html{
 
 header{
     background: var(--background);
+    text-align: center;
 }
 
 header h1{
     background-color: #ff6b61;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 0%;
     width: 400px;
-    padding: 5px;
+    padding: 0px;
     border-width: 5px;
     border-style: solid;
     border-color: #A8271E;
@@ -45,6 +47,44 @@ main{
 
 /* navbar */
 
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-lable{
+    color: #000;
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border: 5px solid #000;
+
+}
+
+.nav-toggle-lable span, 
+.nav-toggle-lable span::before,
+.nav-toggle-lable span::after {
+    display: block;
+    background: #000;
+    width: 2em;
+    height: 3px;
+    position: relative;
+}
+
+.nav-toggle-lable span::before,
+.nav-toggle-lable span::after {
+    content: '';
+    position: absolute;
+}
+
+.nav-toggle-lable span::before{
+    bottom: 7px;
+}
+.nav-toggle-lable span::after{
+    top: 7px;
+}
+
 .navbar{
     background: linear-gradient(to left,#A8271E,#ff6b61);
     border-width: 10px ;
@@ -72,8 +112,7 @@ main{
 .logo{
     display: flex;
     align-items: center;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding: 0.5rem;
     justify-content: center;
 }
 
