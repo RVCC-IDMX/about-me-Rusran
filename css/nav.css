@@ -44,12 +44,14 @@ main{
     display: flex;
     align-items: center;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
     justify-content: center;
 }
 
 .logo img{
     height: 7vw;
     width: 7vw;
+    padding-right: 0.5rem;
 }
 
 .logo h1{

@@ -71,14 +71,18 @@
  #bio {
     font-family: "Pixelify Sans";
     text-align: center;
-    background: linear-gradient(to left,#A8271E,#ff6b61);
+    background: #ff6b61;
     text-shadow: #fff 1px 0 20px;
     border-width: 10px ;
     border-style: solid;
-    border-image: linear-gradient(to left, #ff6b61,#A8271E) 1;
+    border-image: #A8271E;
     padding: 10px;
     margin-right: 10%;
     margin-left: 10%;
+ }
+
+ #bio p{
+   font-size: 1.5rem;
  }
 
 /* Hobbies Section */
@@ -256,10 +260,10 @@ label{
 
 footer {
    font-family: "Press Start 2p";
-   background-color: #0da84d;
+   background-color: #ff6b61;
    text-align: center;
    padding: 10px;
-   text-shadow: #000 1px 0 10px;
+   text-shadow: #fff 1px 0 10px;
    box-shadow: #000 1px 0 20px;
    margin-top: 20px;
 }
