@@ -4,15 +4,37 @@ html{
     scroll-behavior: smooth;
 }
 
+header{
+    background: var(--background);
+}
+
+header h1{
+    background-color: #ff6b61;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    padding: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #A8271E;
+}
+
 /* 
  get rid of padding & sizing on body so
  header is at top
 */
+:root {
+    --background: url("../img/head.jpg");
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 
 body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: #A8271E;
 }
 
 /* add some padding back to rest of page */
@@ -35,6 +57,13 @@ main{
     font-size: 1.5rem;
     margin-bottom: 1rem;
     text-align: center;
+    display: none;
+}
+
+.nav-toggle:checked ~ nav{
+    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -72,8 +101,14 @@ main{
  style all a tags in header 
  and then on hover
 */
+.navbar-links{
+    display: flex;
+    justify-content: center;
+}
 
 .navbar-links a{
+    display: flex;
+    justify-content: center;
     color: whitesmoke;
     background-color: rgba(248, 50, 50, .25);
     font-size: 2rem;
